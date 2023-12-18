@@ -1,0 +1,32 @@
+#list_items .cell{
+    max-width: 220px !important;
+    height: 220px !important;
+    border-radius: 30px !important;
+    overflow: hidden !important;
+    }
+.cell_right{
+    margin: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    filter: brightness(30%); 
+    transition: 0.5s;
+}
+.cell_right:hover{
+    filter: brightness(65%);
+    transition: 0.5s;
+}
+.cell_right a .article_pic {
+    height: 100% !important;
+    width: 100% !important;
+}
+.primary_title .primary_title {
+    position: relative !important;
+    bottom: 145px !important;
+    font-size: 22px !important;
+    color: white !important;
+}
+.head-mod{
+    text-align: center;
+    color: #276661;
+    margin: 20px;
+}

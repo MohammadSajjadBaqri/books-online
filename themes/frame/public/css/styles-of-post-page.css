@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+section#content-box {
+ background-color: #f8f8f9;   
+}
+.posts-list-module .article_pic {
+    width: 100%;
+    filter: grayscale(1);
+    transition: .35s;
+}
+.posts-list-module .article_pic:hover{
+    filter: grayscale(0);
+    transition: .3s;
+}
+div.important_note {
+    padding: 15px 10px 8px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 28px;
+}
+
+table tr td {
+    border: 1px solid #ccc;
+}
+section#content-box {
+    background-color: #f8f8f9;
+}
+div#post {
+    background-color: #ffffff;
+    padding: 10px 10px 25px;
+}
+#pos7 div#cornerpic_box {
+    width: 50%;
+    float: right;
+}
+#pos7 img#cornerpic {
+    width: 100%;
+}
+#pos7 #primary_body_box {
+    margin-top: 15px;
+    text-align: justify;
+}
+#addCommentContainer textarea{
+    border-radius: 25px;
+    resize:none;
+    outline:none;
+}
+#submit {
+    border-radius: 15px;
+    padding: 10px 15px !important;
+}
+div#short_body_and_cornerpic{
+    border-radius: 25px;
+}
+#short_body_box {
+    padding: 15px !imprtant;
+}
+#pos8 {
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #d42525;
+}
+#pos8 .head-mod{
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 0px 3px 14px -6px #4d4d4d52;
+    text-shadow: 0px 1px 10px #0000002b;
+    padding: 3px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px auto;
+    font-size: 16px;
+    font-weight:700;
+    background-color: #d5b396;
+    color: #fff;
+}
+#pos8 .posts-list-module div.cell div.cell_right{
+    width: 100%;
+    position: relative;
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+     height: 180px;
+}
+#pos8 .posts-list-module div.cell div.cell_left a{
+     border-radius: 10px 0 0 10px;
+    position: absolute;
+    background: rgba(31,30,30, 0.7);
+    right: 3px;
+    bottom: 30px;
+    padding: 2px 10px 2px 10px;
+    color: #ffffff;
+    font-size: 10pt;
+    white-space: nowrap;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: break-spaces!important;
+    text-align: justify;
+    font-family: irsans,Tahoma !important;
+}
+#pos8 div#posts-list-box div#list_items div.cell{
+    text-align: center;
+    display: block;
+    float: right;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#pos8 .posts-list-module .article_pic {
+    width: 100%;
+    height: 100%;
+}
+#addCommentContainer input[type=text] {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+    /* resize: none; */
+    outline: none;
+}
+#addCommentContainer textarea {
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    resize: none;
+    outline: none;
+}
+#submit {
+    border-radius: 10px;
+    padding: 10px 15px !important;
+}
+/*
+===========================================
+===========================================
+*/
+
+@media screen and (max-width:767px) {
+    #pos8 .posts-list-module div.cell div.cell_left a {
+    top:unset;
+    height:40px;
+    left:6px;
+    right:6px;
+    margin:0;
+    border-radius:0 0 10px 10px;
+    display:flex;
+    align-item:center;
+    justify-content:center;
+}
+}
+/*
+================
+===============
+*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+div#posts-list-box {
+    margin: 0px !important;
+}
+#pos8 div#posts-list-box div#list_items div.cell{
+    margin:0 0% 15px 1%;
+    width:49%;
+}
+#pos8 .head-mod {
+    padding: 10px;
+    width: 50%;
+    font-size: revert;
+}
+#pos8 .posts-list-module div.cell div.cell_left a{
+    padding: 7px 12px;
+    white-space: nowrap;
+    height:50px;
+    right:6px;
+    margin:0;
+    left:6px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    font-size:13pt;
+    border-radius:0 0 10px 10px;
+    top:unset;
+}
+#pos8 .posts-list-module div.cell div.cell_right {
+    height: 220px;
+}
+}
+/*
+================
+================
+*/
+@media (min-width: 992px) and (max-width:1200px) {
+    #pos8 .posts-list-module .article_pic {
+    height: 150px;
+}
+#pos8 .head-mod {
+    font-size:15px;
+}
+#pos8 .posts-list-module div.cell div.cell_left a{
+    left:6px;
+    text-overflow:ellipsis;
+     font-size: 9pt;
+}
+#pos8 .posts-list-module div.cell div.cell_right{
+     height: 160px;
+}
+}
+
+#post-data-box{
+    display: none;
+}
+ #loadingscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #276661;
+  z-index: 9999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#loading{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 200px;
+  width: 80%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background-image: url(../images/book.gif);
+  background-position: center;
+  background-size: 120%;
+  color: white;
+}

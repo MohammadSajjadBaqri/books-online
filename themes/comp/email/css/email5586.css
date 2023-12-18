@@ -1,0 +1,49 @@
+#component_container {  	
+}
+
+div#main_email_box {
+    padding: 0px 0px;
+    width: 304px;
+    margin: 15px auto;
+}
+
+#component_container div.field_box {
+        padding: 10px 0px;
+}
+
+span.field_title {
+color: #afafaf;
+    display: block;
+    margin-bottom: 8px;	
+}
+
+span.post_title {
+margin-bottom: 10px;
+display: block;	
+}
+
+input#your_email_field , input#recipient_email_field {
+    margin: 3px;
+    width: 300px;
+    text-align: left;
+    direction: ltr;
+}
+
+input#submitsend {
+    margin-top: 8px;
+    width: 300px;
+    margin-right: 3px;
+}
+
+
+@media (max-width: 576px) {
+	
+input#your_email_field, input#recipient_email_field {
+    width: 280px;
+}
+	
+input#submitsend {
+    width: 280px;
+}
+	
+}

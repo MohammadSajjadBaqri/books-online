@@ -1,0 +1,21 @@
+span.twitter-typeahead {
+    display: block;    
+}
+
+.tt-menu {
+  width: 100%;
+}
+
+.tt-suggestion {
+    padding: 8px 8px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+span.twitter-typeahead {
+    display: inline-block !important;
+}
+
+#filter-search {
+    display: inline-block !important;
+    margin-left: 6px;
+}

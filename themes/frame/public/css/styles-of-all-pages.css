@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap');
+html{
+    min-height: 100%;
+    }
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F6F6F6;
+}
+.imgheading{
+    height: 45px;
+    margin: 25px;
+}
+.latestbooks{
+    text-align: center;
+    background-color: #e3aa72;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #e8b684 25%, transparent 25%), linear-gradient(225deg, #e8b684 25%, transparent 25%), linear-gradient(45deg, #e8b684 25%, transparent 25%), linear-gradient(315deg, #e8b684 25%, #e3aa72 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+    min-height: 500px;
+}
+.popular{
+    text-align: center;
+    background-color: #DEECFB;
+    min-height: 500px;
+}
+#list_items{
+    width: 100% !important;
+}
+.btn-book{
+    background-color: #276661;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    transition: 1s;
+}
+.btn-book:hover{
+    background-color: #ffcf9e;
+    color: #276661;
+    transition: 1s;
+}
+.footer{
+    color: white;
+    background-color: #276661;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #095c5e 25%, transparent 25%), linear-gradient(225deg, #095c5e 25%, transparent 25%), linear-gradient(45deg, #095c5e 25%, transparent 25%), linear-gradient(315deg, #095c5e 25%, #276661 25%);
+    background-position:  9px 0, 9px 0, 0 0, 0 0;
+    background-size: 18px 18px;
+    background-repeat: repeat;
+    padding: 10px;
+}
+.footer-logo{
+    width: 100%;
+    max-width: 170px;
+}
+a{
+    text-decoration: none;
+}
+.copyright{
+    color: #276661;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

@@ -1,0 +1,108 @@
+#posts-list-box #list_items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-content: space-around;
+      justify-content: center;
+    }
+#list_items .cell{
+    background-color: white;
+    flex: 1;
+    min-height: 200px;
+    margin: 10px;
+    text-align: center;
+    min-width: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    min-width: 200px;
+    max-width: 250px;
+    }
+#module-1084 #posts-list-box #list_items .cell{
+    background-color: #276661;
+    min-width: 200px;
+    max-width: 250px;
+    }
+.cell_right a .article_pic{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    aspect-ratio: 0.7072135785; !important;
+    }
+#module-1084 #posts-list-box #list_items .cell .cell_left .subsidiary_title{
+    color: white;
+    }
+    .cell_left .subsidiary_title{
+    font-size: 10px;
+    color: black;
+    margin: 1px;
+    }
+.primary_title .primary_title{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1;
+    }
+#module-1084 #posts-list-box #list_items .cell .cell_left .primary_title .primary_title{
+    color: white;
+    }
+      #module-1078, #module-1084{
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+.article_pic {
+      transition: 0.5s;
+      width: auto;
+      max-height: 100%;
+    }
+
+    .rotate{
+      transform: rotate(15deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .rotate-negative{
+      transform: rotate(-5deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .top-image:hover{
+        transform: rotate(0deg);
+        transition: 0.5s;
+        transform: scale(1.07);
+    }
+    .cell_right{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        width: 85%;
+        height: 250px;
+    }
+    
+   #list_items .cell:hover{
+  background-color: #276661;
+  transition: 0.5s;
+}
+
+#module-1084 #posts-list-box  #list_items .cell:hover{
+  background-color: #C0966C;
+  transition: 0.5s;
+}
+
+.cell:hover > .cell_left > .subsidiary_title {
+  color: white;
+  transition: 0.5s;
+}
+
+.cell:hover .cell_left a {
+  color: white;
+  transition: 0.5s;
+}

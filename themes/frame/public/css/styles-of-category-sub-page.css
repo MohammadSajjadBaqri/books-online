@@ -1,0 +1,25 @@
+.cell_right a .article_pic {
+        aspect-ratio: 250/357 !important;
+}
+.cell_right {
+        height: auto !important;
+        width: 100% !important;
+        margin: 0px !important;
+}
+.cell{
+        overflow: hidden !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.5s;
+}
+.cell:hover{
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 0.5s;
+}
+.head-mod{
+    text-align: center;
+    color: #276661;
+    margin: 20px;
+}

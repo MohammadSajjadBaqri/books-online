@@ -1,0 +1,14 @@
+.component_title {
+    background-position: right;
+    background-size: 30px;
+    padding-right: 41px;
+    width: 160px;
+    margin: auto;
+    font-weight: bold;
+    color: #276661
+}
+input#send {
+    color: white;
+    background-color: #276661;
+    border-width: 0px;
+}

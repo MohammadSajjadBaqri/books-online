@@ -1,0 +1,60 @@
+@media (max-width: 767.98px) {
+.logo-in-header{
+    order: 2;
+}
+.navbar-in-header{
+    order: 1;
+}
+.search-in-header{
+    order: 3;
+}
+}
+    .nav-custom{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    background-color: #276661;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #095c5e 25%, transparent 25%), linear-gradient(225deg, #095c5e 25%, transparent 25%), linear-gradient(45deg, #095c5e 25%, transparent 25%), linear-gradient(315deg, #095c5e 25%, #276661 25%);
+    background-position:  9px 0, 9px 0, 0 0, 0 0;
+    background-size: 18px 18px;
+    background-repeat: repeat;
+}
+.custom-search-button{
+    height: 100%;
+    position: relative;
+    float: right;
+}  
+.custom-search-button button{
+    width: 55.6px;
+    height: 39.6px;
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.logo-in-header, .navbar-in-header, .search-in-header, .navbar-brand, .nav-link{
+    color: white;
+    transition: 1s;
+}
+.nav-link:hover, .nav-link:active, .navbar-brand:hover, .navbar-brand:active{
+    transition: 1s;
+    background-color: #C0966C;
+    border-radius: 10px;
+    color: white;
+}
+.navbar-brand:hover{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.navbar-brand{
+    font-weight: 600;
+}
